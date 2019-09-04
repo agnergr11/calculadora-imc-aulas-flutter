@@ -78,6 +78,7 @@ class _HomeState extends State<Home> {
     );
   }
 
+  
   void calculateImc() {
     double weight = double.parse(_weightController.text);
     double height = double.parse(_heightController.text) / 100.0;
