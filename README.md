@@ -12,8 +12,8 @@ Aplicativo de uma calculadora de IMC criado para disciplina de Programação Mob
 
 Dupla: 
 
-Agner Gomes 
-Matheus Estoque Nunes
+- [x] Agner Gomes
+- [x] Matheus Estoque Nunes
 
 - [x]  Adicionar botões (Toggle ou Radio button) para escolha de gênero;
 - [x]  Corrigir o calculo de acordo com o gênero (masculino e feminino);

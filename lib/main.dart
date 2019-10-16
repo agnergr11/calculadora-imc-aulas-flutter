@@ -158,7 +158,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin
     usuario.genero = value;
   }
 
-  TextFormField customMeme(String label, String warning, TextEditingController controller) {
+  TextFormField insert(String label, String warning, TextEditingController controller) {
 
     return TextFormField(
       keyboardType: TextInputType.number,
@@ -229,9 +229,9 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin
 
                       ],),
 
-                    customMeme("Altura (cm)", "Digite uma altura!", _heightController),
+                    insert("Altura (cm)", "Digite uma altura!", _heightController),
                     Padding(padding: EdgeInsets.only(top: 8.0),),
-                    customMeme("Peso (kg)", "Digite um peso!", _weightController),
+                    insert("Peso (kg)", "Digite um peso!", _weightController),
 
 
 
